@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="16dp"
+	    android:paddingRight="16dp"
+	    android:paddingTop="5dp"
+	    android:paddingBottom="5dp">
+	    
+	<ImageView 
+        android:id="@+id/imgEAComp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_eacomp"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:contentDescription="@string/desc_list_item_icon"/>
+    
+    <TextView
+	    android:id="@+id/txtHome"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/imgEAComp"
+	    android:text="@string/text_home"
+	    android:textSize="14sp" />
+    
+    <ImageView 
+		android:id="@+id/iconPetComp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/txtHome"
+		android:src="@drawable/ic_petcomp"
+		android:layout_centerHorizontal="true"
+		android:contentDescription="@string/desc_list_item_icon"/> 
+		
+   	<ImageView 
+		android:id="@+id/iconUfma"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/iconPetComp"
+		android:src="@drawable/ic_ufma"
+		android:layout_centerHorizontal="true"
+		android:contentDescription="@string/desc_list_item_icon"/>
+	
+	</RelativeLayout>
+</ScrollView>

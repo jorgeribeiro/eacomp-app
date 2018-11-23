@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EAComp</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Fragment Titles -->
+    <string name="txt_schedule">Programação</string>
+    <string name="txt_short_papers">Short-Papers</string>
+    <string name="txt_robocopa">Robocopa</string>
+    <string name="txt_maratona">Maratona de Programação</string>
+    <string name="txt_editions">Inscrições</string>
+    <string name="txt_petcomp">petCOMP</string> 
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Programação</item>
+        <item >Short-Papers</item>
+        <item >Robocopa</item>
+        <item >Maratona de Programação</item>
+        <item >Inscrições</item>
+        <item >petCOMP</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_schedule</item>
+        <item>@drawable/ic_shortpaper</item>
+        <item>@drawable/ic_robocopa</item>
+        <item>@drawable/ic_maratona</item>
+        <item>@drawable/ic_editions</item>
+        <item>@drawable/ic_pet</item>
+    </array>
+    
+    <!-- Text to Home Fragment -->
+    <string name="text_home">\nBem vindo ao aplicativo oficial do <b>Encontro Acadêmico de Computação</b>!
+        \nEste aplicativo conta com algumas informações para auxiliar os participantes do evento.
+        O EAComp tem como finalidade integrar os diversos períodos do Curso de Ciência da Computação
+        juntamente com os docentes, de forma a poder divulgar os projetos e pesquisas que estão sendo
+        desenvolvidos na graduação, mestrado e doutorado. O Encontro encontra-se na sua terceira edição,
+        e terá em seu conteúdo palestras, seminários, Mostras Competitivas, apresentação de Short-Papers, 
+        Robocopa e a Maratona de Programação.
+        \nCom o apoio dos discentes e docentes da graduação, mestrado e doutorado, o EAComp acontece duas
+        vezes por ano, sendo organizado um Encontro por semestre na Universidade Federal do Maranhão.
+        \nO EAComp é organizado pelo Programa de Educação Tutorial de Ciência da Computação (petCOMP).</string>
+    
+    <!-- Text to Schedule Fragment -->
+    <string name="day_one"><b>15/04 - Quarta-feira</b></string>
+    <string name="day_two"><b>16/04 - Quinta-feira</b></string>
+    <string name="day_three"><b>17/04 - Sexta-feira</b></string>
+    <string name="day_one_schedule">
+        Abertura III EAComp
+        \nHorário: 14h
+        \n\nMostra Competitiva de Jogos
+        \nHorário: 14:30h
+        \n\nPalestra: Jogos e Dispositivos Móveis
+        \nPalestrante: Prof. Dr. Tiago Bonini
+        \nHorário: 15:30h
+        \n\nApresentação de Short-Papers
+        \nHorário: 16:30h
+        \n\nEncerramento do primeiro dia</string>
+    <string name="day_two_schedule">
+        Robocopa
+        \nHorário: 14h
+        \n\Mostra de Aplicativos Android
+        \nHorário: 15h
+        \n\nPalestra: SISLOG: Sistema de Localização de Ônibus Urbano
+        \nPalestrante: Prof. Msc. Marcos Tadeu
+        \nHorário: 16h
+        \n\nApresentação de Short-Papers
+        \nHorário: 17h
+        \n\nEncerramento do segundo dia</string>
+   	<string name="day_three_schedule">
+        Maratona de Programação
+        \nHorário: 14h às 18h</string>
+        
+   	<!-- Text to Short-Papers Fragment -->
+   	<string name="txt_title_short_paper1"><b>Call For Papers: Short-Papers</b></string>
+   	<string name="txt_title_short_paper2"><b>Datas importantes</b></string>
+   	<string name="txt_title_short_paper3"><b>Chamada</b></string>
+   	<string name="txt_short_paper1">Ocorrerá pela primeira vez no III EAComp a apresentação de monografias
+   	    na forma de Short-Papers. Short-Papers são versões resumidas de trabalhos acadêmicos, e no EAComp
+   	    serão aceitas submissões de resumos de trabalhos de conclusão de curso (monografias), defendidos
+   	    a partir de 2013.</string>
+   	<string name="txt_short_paper2">As submissões serão aceitas até o dia 14 de Abril de 2015. 
+   	    As apresentações acontecerão nos dois primeiros dias do EAComp (dias 15 e 16 de Abril).</string>
+   	<string name="txt_short_paper3">Para visualizar o texto da chamada e para demais instruções
+   	    visite a página http://pet.ufma.br/sites/computacao/iii-eacomp/</string>
+   	    
+   	<!-- Text to Robocode Fragment -->
+   	<string name="txt_title_robocode1"><b>\nO que é Robocode</b></string>
+   	<string name="txt_title_robocode2"><b>Como jogar</b></string>
+   	<string name="txt_title_robocode3"><b>Links úteis</b></string>
+   	<string name="txt_robocode1">Robocode é um jogo de programação que tem como objetivo escrever o código
+   	    de um robô virtual para competir contra outros robôs em uma arena. O jogador precisa escrever
+   	    uma inteligência artificial para o seu robô em Java ensinando-o a reagir a eventos que ocorrerão
+   	    na batalha. (texto retirado da Robowiki: http://robowiki.net/wiki/Robocode)</string>
+   	<string name="txt_robocode2">Para começar a jogar basta ter o Kit de Desenvolvimento Java (JDK)
+   	    instalado na máquina, baixar o Robocode na página oficial da plataforma e instalar seguindo as 
+   	    instruções.</string>
+   	<string name="txt_robocode3">Página oficial do Robocode: http://robocode.sourceforge.net/
+   	    \nTutorial Robocode 1: https://papobinario.files.wordpress.com/2012/04/tutorial-robocode.pdf
+   	    \nTutorial Robocode 2: http://www2.joinville.udesc.br/~larva/sicgrapi/tutorialrobocode.pdf</string>
+   	    
+   	<!-- Text to Marathon Fragment -->
+   	<string name="txt_title_maratona1"><b>Maratona na UFMA</b></string>
+   	<string name="txt_title_maratona2"><b>Como funciona</b></string>
+   	<string name="txt_maratona1">A Maratona de Programação é um evento que foi idealizado primeiramente pela
+   	    Sociedade Brasileira de Computação (SBC) no ano de 1996. A Maratona nasceu das competições regionais
+   	    classificatórias para as finais mundiais de programação. A Maratona é destinada a alunos de graduação
+   	    e pós-graduação da área de Computação. A competição promove nos alunos a criatividade, capacidade de
+   	    trabalho em equipe, busca de novas soluções e a habilidade de resolver problemas sob pressão.</string>
+   	<string name="txt_maratona2">Esse tipo de competição tem sido realizada na UFMA há vários anos e conta com 
+   	    grande participação dos estudantes. As Maratonas servem para os alunos verificarem sua capacidade de 
+   	    raciocínio rápido e sua lógica na hora de programar. As questões não envolvem nenhum tipo de criação de
+   	    sistemas complexos, e sim são questões que propõem um problema lógico que precisa ser resolvido.
+   	    O petCOMP tem feito uma Maratona por semestre, sempre acontecendo durante o EAComp.</string>
+   	<string name="txt_maratona3">A dinâmica da Maratona é a mesma em todas as competições: são formados
+   	    times de 3 estudantes, e são propostas algumas questões para os mesmos resolverem. A cada questão
+   	    submetida corretamente, o time ganha um balão na cor correspondente à questão. Quanto mais rápido
+   	    a questão for submetida, mais pontos o time recebe. Vence o time que obtiver mais pontos ao final.</string>
+   	
+   	<!-- Text to Registration Fragment -->
+   	<string name="txt_title_registration1"><b>Links para inscrição:</b>\n(Você será redirecionado para seu browser padrão)</string>
+   	<string name="txt_registration1">As inscrições para o EAComp, assim como para os eventos que acontecem durante
+   	    o Encontro Acadêmico (Maratona, Mostras, Robocopas) são feitas pelo sistema de certificados XSCERT. O 
+   	    XSCERT é um sistema desenvolvido pelos alunos do petCOMP o qual pode ser utilizado por qualquer pessoa
+   	    para gerenciar um evento criado. Ao final do evento, o criador pode enviar aos participantes os Certificados
+   	    de Participação.</string>
+   	<string name="txt_registration2">III EAComp: http://pet.ufma.br/xscert/evento.php?id=65
+   	    \nMostra Competitiva de Jogos: http://pet.ufma.br/xscert/evento.php?id=66
+   	    \nRobocopa: http://pet.ufma.br/xscert/evento.php?id=67
+   	    \nMaratona de Programação: http://pet.ufma.br/xscert/evento.php?id=68
+   	    \nMostra de Aplicativos Android: http://pet.ufma.br/xscert/evento.php?id=69</string>
+   	    
+   	<!-- Text to petCOMP Fragment -->
+   	<string name="txt_title_petcomp1"><b>O que é o PET</b></string>
+   	<string name="txt_title_petcomp2"><b>O petCOMP</b></string>
+   	<string name="txt_petcomp1">O <b>Programa de Educação Tutorial</b> é desenvolvido por um grupo de estudantes 
+   	    sob a tutoria de um docente, em nível de graduação nas Instituições de Ensino Superior do país orientados 
+   	    pela indissociabilidade entre ensino, pesquisa e extensão.
+   	    \nSob estas três vertentes, os alunos do PET realizam diversas atividades extracurriculares, sendo um
+   	    complemento à formação do estudante, e uma oportunidade de melhoria de todo o curso no qual está inserido,
+   	    garantido a todos os alunos oportunidades que não estão presentes na estrutura curricular do curso.</string>
+   	<string name="txt_petcomp2">O petCOMP busca desenvolver diversas atividades que podem auxiliar à formação
+   	    de todos os estudantes do curso de Ciência da Computação. Por meio de minicursos, seminários, palestras,
+   	    encontros acadêmicos, competições e outras atividades, o petCOMP proporciona aos estudantes atividades
+   	    que estimulem uma formação bem sucedida do estudante de Computação, auxiliando seus estudos por meio dessas 
+   	    atividades.</string>   	
+   	
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
